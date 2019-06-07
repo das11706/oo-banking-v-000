@@ -1,7 +1,7 @@
 require 'pry'
 
 class BankAccount
-  attr_accessor :balance, :status
+  # attr_accessor :balance, :status
   attr_reader :name, :balance, :status
 
   def initialize(name, balance = 1000)
